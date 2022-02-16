@@ -47,6 +47,13 @@ li, a {
     text-decoration: none;
     color: #2c83c9;
 }
+.contenido-lista li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+    color: #f7f7f7;
+}
 
 header{
     background-color: #f7f7f7;
@@ -118,11 +125,11 @@ header{
 }
 
 .caja-secciones-desc{
-    font-size: 25px;
+    font-size: 20px;
     color: #f7f7f7;
     text-align: justify; 
     width: 90%;   
-    margin-left: 50px;
+    margin-left: 100px;
     }
 
     .caja-secciones-ind{
@@ -223,7 +230,7 @@ legend h2{
      .grid_doc{
          display: grid;
          grid-template-columns: 100%;
-         grid-template-rows:8% 4% 30% 47% auto; 
+         grid-template-rows:11.8% 4% 30% 47% auto; 
          grid-row-gap: 1.5rem;
          grid-template-areas: "header"
                               "title"
@@ -725,4 +732,27 @@ legend h2{
      transform: skewX(-10deg);
      transition: all 2s;
  }
- 
+ .titulo_secc{
+    width: 85%;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    color: #f7f7f7;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;  
+    background-color: #73baf5;
+    border-radius: 35px 0px 35px 0px;
+-moz-border-radius: 35px 0px 35px 0px;
+-webkit-border-radius: 35px 0px 35px 0px;
+}
+.subtitulo_secc{
+    width: 85%;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    color: #f7f7f7;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;  
+    background-color: #73baf5;
+    border-radius: 35px;
+}
