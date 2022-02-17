@@ -101,7 +101,7 @@ header{
     font-size: 32px;
 }
 .doc-list li{
-    color: #f7f7f7;
+    color: #03045e;
     font-size: 20px;
 }
 
@@ -229,6 +229,7 @@ legend h2{
 
      .grid_doc{
          display: grid;
+         align-items: center;
          grid-template-columns: 100%;
          grid-template-rows:11.8% 4% 30% 47% auto; 
          grid-row-gap: 1.5rem;
@@ -256,16 +257,16 @@ legend h2{
     .produc{
         grid-area: prod;
     }
-     .doc-list{
+     /* .doc-list{
          grid-area: texto;
          display: grid;
          grid-template-columns: 100%;
-         grid-template-rows: 33% 33% 33%;
+         grid-template-rows: 33% 30% 33%;
          grid-template-areas: "docencia"
                               "investigacion"
                               "prod";
         grid-row-gap: 1rem;
-     }
+     } */
     
      .footer{
          grid-area: footer;
