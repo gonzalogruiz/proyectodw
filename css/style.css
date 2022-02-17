@@ -260,7 +260,7 @@ legend h2{
          grid-area: texto;
          display: grid;
          grid-template-columns: 100%;
-         grid-template-rows: 35% 30% 33%;
+         grid-template-rows: 33% 33% 33%;
          grid-template-areas: "docencia"
                               "investigacion"
                               "prod";
@@ -368,8 +368,7 @@ legend h2{
         line-height: 30px;
     }
     .footer{
-        color:#f7f7f7;
-        background-color: #2c83c9;     
+        color:#2c83c9;     
     }
 
  }
