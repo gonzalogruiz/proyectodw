@@ -756,3 +756,8 @@ legend h2{
     background-color: #73baf5;
     border-radius: 35px;
 }
+
+.accordion-botton-color{
+    background-image: linear-gradient(to top, rgb(211, 222, 253), #f7f7f7 100%, white);
+    font-size: 1.2rem;
+}
