@@ -231,7 +231,7 @@ legend h2{
          display: grid;
          align-items: center;
          grid-template-columns: 100%;
-         grid-template-rows:11.8% 4% 30% 47% auto; 
+         grid-template-rows:15% 6% 35% 45% auto; 
          grid-row-gap: 1.5rem;
          grid-template-areas: "header"
                               "title"
