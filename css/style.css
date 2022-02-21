@@ -47,6 +47,14 @@ li, a {
     text-decoration: none;
     color: #2c83c9;
 }
+.color_doc, li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: none;
+    color: #2c83c9;
+}
+
 .contenido-lista li {
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
@@ -139,21 +147,12 @@ header{
     }
 
 
-    .division-nosotros{
-        display: flex;
-    }
-    .division-nosotros img{
-        padding-left: 300px;
-    }
-
 .flex-doc{
     display: flex;
     justify-content: space-between;
 }
 
-.posicion-docencia h4{
-    color: #03045e;
-}
+
 
 .formulario{
 width: 30%;
@@ -261,7 +260,7 @@ legend h2{
          grid-area: texto;
          display: grid;
          grid-template-columns: 100%;
-         grid-template-rows: 33% 30% 33%;
+         grid-template-columns: 100%;
          grid-template-areas: "docencia"
                               "investigacion"
                               "prod";
@@ -286,6 +285,95 @@ legend h2{
          height: 100%;
          padding-right: 5%;
      }
+
+     /*--------------------------------------------GRID-NOSOTROS--------------------------------------------*/
+     .grid_nos{
+         display: grid;
+         grid-template-columns: 50% 50%;
+         grid-template-rows: 6.5% 3% 18% 6% 5% 5% 5% 3% 4% 4% 13% auto;
+         grid-row-gap: 1.5rem;
+         grid-column-gap: 1.5rem;
+         grid-template-areas: "header header"
+                              "title title"
+                              "img img"
+                              "politicas politicas"
+                              "vision vision"
+                              "mision mision"
+                              "valores valores"
+                              "staff staff"
+                              "jefe subjefe"
+                              "agentes agentes"
+                              "profesionales tecnicos"
+                              "secretaria jeferes"
+                              "footer footer"                  
+     }
+     .grid_nos, li{
+         color: #f7f7f7;
+         font-size: 17px;
+     }
+
+     header{
+        grid-area: header;
+    }
+    .titulo{
+        grid-area: title;
+    }
+    .bannersec {
+       grid-area: img;
+    }
+    .politicas{
+        grid-area: politicas;
+        text-align: center;
+    }
+    .vision{
+        grid-area: vision;
+        text-align: center;
+    }
+    .mision{
+        grid-area: mision;
+        text-align: center;
+    }
+    .valores{
+        grid-area: valores;
+        text-align: center;
+    }
+    .staff{
+        grid-area: staff;
+        text-align: center;
+    }
+    .jefe{
+        grid-area: jefe;
+        text-align: center;
+    }
+    .subjefe{
+        grid-area: subjefe;
+        text-align: center;
+    }
+    .agentes{
+        grid-area: agentes;
+        text-align: center;
+    }
+    .profesionales{
+        grid-area: profesionales;
+        text-align: center;
+    }
+    .tecnicos{
+        grid-area: tecnicos;
+        text-align: center;
+    }
+    .secretaria{
+        grid-area: secretaria;
+        text-align: center;
+    }
+    .jeferes{
+        grid-area: jeferes;
+        text-align: center;
+    }
+    .footer{
+        grid-area: footer;
+    }
+
+
 
  /*--------------------------------------------MEDIA QUERIES INDEX 768px--------------------------------------------*/
 
