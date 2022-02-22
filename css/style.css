@@ -46,13 +46,7 @@ li, a {
     font-size: 22px;
     text-decoration: none;
     color: #2c83c9;
-}
-.color_doc, li{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    font-size: 22px;
-    text-decoration: none;
-    color: #2c83c9;
+    list-style: none;
 }
 
 .contenido-lista li {
@@ -290,7 +284,7 @@ legend h2{
      .grid_nos{
          display: grid;
          grid-template-columns: 50% 50%;
-         grid-template-rows: 6.5% 3% 18% 6% 5% 5% 5% 3% 4% 4% 13% auto;
+         grid-template-rows: 6.5% 3% 18% 6% 5% 5% 5% 3% % 14% auto;
          grid-row-gap: 1.5rem;
          grid-column-gap: 1.5rem;
          grid-template-areas: "header header"
@@ -302,9 +296,9 @@ legend h2{
                               "valores valores"
                               "staff staff"
                               "jefe subjefe"
+                              "secretaria jeferes"
                               "agentes agentes"
                               "profesionales tecnicos"
-                              "secretaria jeferes"
                               "footer footer"                  
      }
      .grid_nos, li{
@@ -324,54 +318,81 @@ legend h2{
     .politicas{
         grid-area: politicas;
         text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     .vision{
         grid-area: vision;
         text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     .mision{
         grid-area: mision;
         text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     .valores{
         grid-area: valores;
         text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     .staff{
         grid-area: staff;
         text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     .jefe{
         grid-area: jefe;
         text-align: center;
+        margin: 0px;
+        padding-left: 13%;
+        padding-right: 3%;
     }
     .subjefe{
         grid-area: subjefe;
         text-align: center;
+        margin: 0px;
+        padding-left: 3%;
+        padding-right: 13%;
     }
     .agentes{
         grid-area: agentes;
         text-align: center;
+        padding-left: 13%;
+        padding-right: 13%;
     }
     .profesionales{
         grid-area: profesionales;
         text-align: center;
+        margin: 0px;
     }
     .tecnicos{
         grid-area: tecnicos;
         text-align: center;
+        margin: 0px;
     }
     .secretaria{
         grid-area: secretaria;
         text-align: center;
+        margin: 0px;
+        padding-left: 13%;
+        padding-right: 3%;
     }
     .jeferes{
         grid-area: jeferes;
         text-align: center;
+        margin: 0px;
+        padding-left: 3%;
+        padding-right: 13%;
     }
     .footer{
         grid-area: footer;
     }
+
 
 
 
@@ -825,10 +846,10 @@ legend h2{
     text-align: center;
     font-size: 24px;
     margin: auto;
-    color: #f7f7f7;
+    color: #03045e;
     padding: 1%;
     font-family: 'Montserrat', sans-serif;  
-    background-color: #73baf5;
+    background-color: #f7f7f7;
     border-radius: 35px 0px 35px 0px;
 -moz-border-radius: 35px 0px 35px 0px;
 -webkit-border-radius: 35px 0px 35px 0px;
@@ -842,10 +863,14 @@ legend h2{
     padding: 1%;
     font-family: 'Montserrat', sans-serif;  
     background-color: #73baf5;
-    border-radius: 35px;
+    border-radius: 5px;
 }
 
 .accordion-botton-color{
     background-image: linear-gradient(to top, rgb(211, 222, 253), #f7f7f7 100%, white);
     font-size: 1.2rem;
+}
+
+.accordion li{
+    color: #03045e;
 }
