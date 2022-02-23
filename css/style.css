@@ -181,6 +181,9 @@ legend h2{
     color: white;
 }
 
+.noinline ul{
+    padding-inline-start: 0px;
+}
 /*--------------------------------------------GRID INDEX--------------------------------------------*/
 
 .grid_index{
