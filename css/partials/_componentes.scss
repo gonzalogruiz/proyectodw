@@ -1,0 +1,196 @@
+.titulo {
+    width: 85%;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    color: #f7f7f7;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;  
+}
+.bannersec{
+    height: auto;
+    width: 100%;
+    display:block;
+    margin:auto; 
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+/*--------------------------------------------CLASES INDEX--------------------------------------------*/
+.contenido h2{
+    font-size: 30px;
+    color: #f7f7f7;
+    padding-left: 3%;
+}
+.contenido li{
+    font-size: 20px;
+    color: #f7f7f7;
+    text-align: justify;
+    max-width: 1024px;
+    padding-left: 5%;
+}
+
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0%;
+}
+.video iframe{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    padding-right: 5%;
+}
+
+/*--------------------------------------------CLASES ESPECIALIDADES--------------------------------------------*/
+
+.caja-secciones{
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.caja-secciones-desc{
+    font-size: 20px;
+    color: #f7f7f7;
+    text-align: justify; 
+    width: 90%;   
+    margin-left: 100px;
+    }
+
+    .caja-secciones-ind{
+        width: 550px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+    .contenido-lista li {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        text-decoration: none;
+        color: #f7f7f7;
+    }
+
+    /*--------------------------------------------CLASES NOSOTROS--------------------------------------------*/
+    .noinline ul{
+        padding-inline-start: 0px;
+        list-style: none;
+    }
+
+    /*--------------------------------------------CLASES CONTACTO--------------------------------------------*/
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 20px;
+    position: relative;
+}
+
+#contactus {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-left: 20%;
+}
+
+
+#contactus h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #03045e;
+}
+
+#contactus h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%
+}
+
+#contactus input[type="text"],
+#contactus input[type="email"],
+#contactus input[type="tel"],
+#contactus input[type="url"],
+#contactus textarea {
+    width: 95%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px
+}
+
+#contactus input[type="text"]:hover,
+#contactus input[type="email"]:hover,
+#contactus input[type="tel"]:hover,
+#contactus input[type="url"]:hover,
+#contactus textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa
+}
+
+#contactus textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none
+}
+
+#contactus button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #03045e;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px
+}
+
+#contactus button[type="submit"]:hover {
+    background: #f07150;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out
+}
+
+#contactus button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5)
+}
+
+#contactus input:focus,
+#contactus textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa
+}
+
+::-webkit-input-placeholder {
+    color: #888
+}
+
+:-moz-placeholder {
+    color: #888
+}
+
+::-moz-placeholder {
+    color: #888
+}
+
+:-ms-input-placeholder {
+    color: #888
+}

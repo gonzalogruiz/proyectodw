@@ -1,0 +1,222 @@
+/*--------------------------------------------GRID INDEX--------------------------------------------*/
+
+.grid_index{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 10% 4% 28% 48% auto;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 4rem;
+    grid-template-areas: "header header"
+                        "title title"
+                        "img img"
+                        "contenido video"
+                        "footer footer";
+    }
+    header{
+        grid-area: header;
+    }
+     .titulo {
+         grid-area: title ;
+     }
+     #carouselExampleFade{
+        grid-area: img;
+        align-self: center;
+        align-items: center;
+     }
+     .contenido{
+         grid-area: contenido;
+         align-self: center;
+
+     }
+     .video{
+         grid-area: video;
+         align-self: center;
+     }
+     .footer{
+         grid-area: footer;
+     }
+
+/*--------------------------------------------GRID DOCENCIA--------------------------------------------*/
+
+     .grid_doc{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 100%;
+        grid-template-rows:11.5% 6% 35% 45% auto; 
+        grid-row-gap: 1.5rem;
+        grid-template-areas: "header"
+                             "title"
+                             "img"
+                             "texto"
+                             "footer";
+    }
+    header{
+        grid-area: header;
+    }
+    .titulo{
+        grid-area: title;
+    }
+    .bannersec {
+       grid-area: img;
+    }
+    .docencia{
+       grid-area: docencia;
+   }
+   .investigacion{
+       grid-area: investigacion;
+   }
+   .produc{
+       grid-area: prod;
+   }    
+    .footer{
+        grid-area: footer;
+        align-self: center;
+    }
+
+    /*--------------------------------------------GRID-NOSOTROS--------------------------------------------*/
+    .grid_nos{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 6.5% 3% 18% 6% 5% 5% 5% 3% % 14% auto;
+        grid-row-gap: 1.5rem;
+        grid-column-gap: 1.5rem;
+        grid-template-areas: "header header"
+                             "title title"
+                             "img img"
+                             "politicas politicas"
+                             "vision vision"
+                             "mision mision"
+                             "valores valores"
+                             "staff staff"
+                             "jefe subjefe"
+                             "secretaria jeferes"
+                             "agentes agentes"
+                             "profesionales tecnicos"
+                             "footer footer"  
+    }
+    .grid_nos, li{
+        color: #f7f7f7;
+        font-size: 17px;
+    }
+
+    header{
+       grid-area: header;
+   }
+   .titulo{
+       grid-area: title;
+   }
+   .bannersec {
+      grid-area: img;
+   }
+   .politicas{
+       grid-area: politicas;
+       text-align: center;
+       padding-left: 3%;
+       padding-right: 3%;
+   }
+   .vision{
+       grid-area: vision;
+       text-align: center;
+       padding-left: 3%;
+       padding-right: 3%;
+   }
+   .mision{
+       grid-area: mision;
+       text-align: center;
+       padding-left: 3%;
+       padding-right: 3%;
+   }
+   .valores{
+       grid-area: valores;
+       text-align: center;
+       padding-left: 3%;
+       padding-right: 3%;
+   }
+   .staff{
+       grid-area: staff;
+       text-align: center;
+       padding-left: 3%;
+       padding-right: 3%;
+   }
+   .jefe{
+       grid-area: jefe;
+       text-align: center;
+       margin: 0px;
+       padding-left: 13%;
+       padding-right: 3%;
+   }
+   .subjefe{
+       grid-area: subjefe;
+       text-align: center;
+       margin: 0px;
+       padding-left: 3%;
+       padding-right: 13%;
+   }
+   .agentes{
+       grid-area: agentes;
+       text-align: center;
+       padding-left: 13%;
+       padding-right: 13%;
+   }
+   .profesionales{
+       grid-area: profesionales;
+       text-align: center;
+       margin: 0px;
+   }
+   .tecnicos{
+       grid-area: tecnicos;
+       text-align: center;
+       margin: 0px;
+   }
+   .secretaria{
+       grid-area: secretaria;
+       text-align: center;
+       margin: 0px;
+       padding-left: 13%;
+       padding-right: 3%;
+   }
+   .jeferes{
+       grid-area: jeferes;
+       text-align: center;
+       margin: 0px;
+       padding-left: 3%;
+       padding-right: 13%;
+   }
+   .footer{
+       grid-area: footer;
+   }
+
+   /*--------------------------------------------GRID CONTACTO--------------------------------------------*/
+   
+   .grid_contact{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 11.5% 4% 25% 45% auto;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
+    grid-template-areas: "header header"
+                         "title title"
+                         "img img"
+                         "form faqs"
+                         "footer footer"
+}
+header{
+   grid-area: header;
+}
+.titulo{
+   grid-area: title;
+}
+.bannersec {
+  grid-area: img;
+}
+.form{
+   grid-area: form;
+}
+.faqs{
+   grid-area: faqs;
+   margin-top: 17%;
+   margin-right: 10%;
+}
+.footer{
+   grid-area: footer;
+}
