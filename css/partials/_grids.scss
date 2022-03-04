@@ -74,6 +74,10 @@
     }
 
     /*--------------------------------------------GRID-NOSOTROS--------------------------------------------*/
+    .padding_grid{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
     .grid_nos{
         display: map-get($estilos, grid);
         grid-template-columns: 50% 50%;
@@ -111,32 +115,27 @@
    .politicas{
        grid-area: politicas;
        text-align: map-get($estilos, center);
-       padding-left: 3%;
-       padding-right: 3%;
+       @extend .padding_grid;
    }
    .vision{
        grid-area: vision;
        text-align: map-get($estilos, center);
-       padding-left: 3%;
-       padding-right: 3%;
+       @extend .padding_grid;
    }
    .mision{
        grid-area: mision;
        text-align: map-get($estilos, center);
-       padding-left: 3%;
-       padding-right: 3%;
+       @extend .padding_grid;
    }
    .valores{
        grid-area: valores;
        text-align: map-get($estilos, center);
-       padding-left: 3%;
-       padding-right: 3%;
+       @extend .padding_grid;
    }
    .staff{
        grid-area: staff;
        text-align: map-get($estilos, center);
-       padding-left: 3%;
-       padding-right: 3%;
+       @extend .padding_grid;
    }
    .jefe{
        grid-area: jefe;
