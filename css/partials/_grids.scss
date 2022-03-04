@@ -1,8 +1,7 @@
 /*--------------------------------------------GRID INDEX--------------------------------------------*/
 
 .grid_index{
-    display: map-get($estilos, grid);
-    grid-template-columns: repeat(2, 50%);
+    @include grid_settings;
     grid-template-rows: 10% 4% 28% 48% auto;
     grid-row-gap: 1.5rem;
     grid-column-gap: 4rem;
@@ -79,8 +78,7 @@
         padding-right: 3%;
     }
     .grid_nos{
-        display: map-get($estilos, grid);
-        grid-template-columns: 50% 50%;
+        @include grid_settings;
         grid-template-rows: 6.5% 3% 18% 6% 5% 5% 5% 3% % 14% auto;
         grid-row-gap: 1.5rem;
         grid-column-gap: 1.5rem;
@@ -188,8 +186,7 @@
    /*--------------------------------------------GRID CONTACTO--------------------------------------------*/
    
    .grid_contact{
-    display: map-get($estilos, grid);
-    grid-template-columns: 50% 50%;
+    @include grid_settings;
     grid-template-rows: 11.5% 4% 25% 45% auto;
     grid-row-gap: 1.5rem;
     grid-column-gap: 1.5rem;

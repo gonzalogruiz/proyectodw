@@ -6,6 +6,10 @@ $estilos:(
          flex: flex,
          grid: grid
 );
+@mixin grid_settings{
+    display: map-get($estilos, grid);
+    grid-template-columns: 50% 50%;
+}
 
 .titulo {
     width: 85%;
