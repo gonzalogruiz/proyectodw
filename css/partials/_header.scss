@@ -1,8 +1,8 @@
 header{
-    background-color: #f7f7f7;
-    display: flex;
+    background-color: map-get($estilos, color_title);
+    display: map-get($estilos, flex);
     justify-content: space-between;
-    align-items: center;
+    align-items: map-get($estilos, center);
     padding: 30px 7% 30px 3%;
     box-shadow: 0px 0px 8px rgba(0,0,0,.6);
     .nav__links {
@@ -20,8 +20,8 @@ header{
     }
     
     .nav__links li a:hover {
-        color: #f7f7f7;
-        background-color: #2c83c9;
+        color: map-get($estilos, color_title);
+        background-color: map-get($estilos, color_other);
         border: none;
         border-radius: 50px;
         padding: 9px 25px;
@@ -35,7 +35,7 @@ header{
         font-weight: lighter;
         font-size: 22px;
         text-decoration: none;
-        color: #2c83c9;
+        color: map-get($estilos, color_other);
         list-style: none;
     }
 }

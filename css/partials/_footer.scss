@@ -1,9 +1,9 @@
 
 .footer{
-    color:#2c83c9;
-    background-color: #f7f7f7;
+    color:map-get($estilos, color_other);
+    background-color: map-get($estilos, color_title);
     width: 100%;
-    text-align: center;
+    text-align: map-get($estilos, center);
     padding-top: 10px;
     padding-bottom: 15px;
     bottom: 0;    

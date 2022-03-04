@@ -1,9 +1,18 @@
+/*-----------------------------------------------MAP-GET------------------------------------------------------*/
+$estilos:( 
+         color_title: #f7f7f7,
+         color_other: #2c83c9,
+         centro: center,
+         flex: flex,
+         grid: grid
+);
+
 .titulo {
     width: 85%;
-    text-align: center;
+    text-align: map-get($estilos, center);
     font-size: 30px;
     margin: auto;
-    color: #f7f7f7;
+    color: map-get($estilos, color_title);
     padding: 1%;
     font-family: 'Montserrat', sans-serif;  
 }
@@ -18,12 +27,12 @@
 /*--------------------------------------------CLASES INDEX--------------------------------------------*/
 .contenido h2{
     font-size: 30px;
-    color: #f7f7f7;
+    color: map-get($estilos, color_title);
     padding-left: 3%;
 }
 .contenido li{
     font-size: 20px;
-    color: #f7f7f7;
+    color: map-get($estilos, color_title);
     text-align: justify;
     max-width: 1024px;
     padding-left: 5%;
@@ -46,7 +55,7 @@
 /*--------------------------------------------CLASES ESPECIALIDADES--------------------------------------------*/
 
 .caja-secciones{
-    display:flex;
+    display: map-get($estilos, flex);
     justify-content: space-between;
     width: 90%;
     margin-left: 50px;
@@ -54,7 +63,7 @@
 
 .caja-secciones-desc{
     font-size: 20px;
-    color: #f7f7f7;
+    color: map-get($estilos, color_title);
     text-align: justify; 
     width: 90%;   
     margin-left: 100px;
@@ -70,7 +79,7 @@
         font-weight: lighter;
         font-size: 15px;
         text-decoration: none;
-        color: #f7f7f7;
+        color: map-get($estilos, color_title);
     }
 
     /*--------------------------------------------CLASES NOSOTROS--------------------------------------------*/
@@ -103,7 +112,7 @@
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: map-get($estilos, center);
     color: #03045e;
 }
 

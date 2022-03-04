@@ -9,14 +9,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 } */
 
-.bannersec{
+/* .bannersec{
         height: auto;
         width: 100%;
         display:block;
         margin:auto; 
         padding-top: 0%;
         padding-bottom: 0%;
-}
+} */
 
 /* .titulo {
     width: 85%;
@@ -49,13 +49,13 @@ body{
     list-style: none;
 } */
 
-.contenido-lista li {
+/* .contenido-lista li {
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
     font-size: 15px;
     text-decoration: none;
     color: #f7f7f7;
-}
+} */
 
 /* header{
     background-color: #f7f7f7;
@@ -128,38 +128,13 @@ body{
     } */
 
 
-.flex-doc{
-    display: flex;
-    justify-content: space-between;
-}
-
-.formulario{
-width: 30%;
-padding: 10px;
-padding-right: 100px;
-border-radius: 10px;
-font-family: 'Montserrat', sans-serif;
-font-size: 30px;
-}
-
-.consulta{
-width: 30%;
-height: 30%;
-padding: 10px;
-padding-right: 100px;
-border-radius: 10px;
-font-family: 'Montserrat', sans-serif;
-font-size: 30px;
-}
-
-
-legend h2{
+/* legend h2{
     color: white;
-}
+} */
 
-.noinline ul{
+/* .noinline ul{
     padding-inline-start: 0px;
-}
+} */
 /*--------------------------------------------GRID INDEX--------------------------------------------*/
 
 /* .grid_index{
@@ -234,7 +209,7 @@ legend h2{
          align-self: center;
      } */
 
-     .video{
+     /* .video{
          position: relative;
          padding-bottom: 56.25%;
          height: 0%;
@@ -246,9 +221,9 @@ legend h2{
          width: 95%;
          height: 100%;
          padding-right: 5%;
-     }
+     } */
 
-     /*--------------------------------------------GRID-NOSOTROS--------------------------------------------*/
+     /* --------------------------------------------GRID-NOSOTROS--------------------------------------------
      .grid_nos{
          display: grid;
          grid-template-columns: 50% 50%;
@@ -359,10 +334,10 @@ legend h2{
     }
     .footer{
         grid-area: footer;
-    }
+    } */
 
  /*--------------------------------------------GRID CONTACTO--------------------------------------------*/
-    .grid_contact{
+    /* .grid_contact{
          display: grid;
          grid-template-columns: 50% 50%;
          grid-template-rows: 11.5% 4% 25% 45% auto;
@@ -393,12 +368,12 @@ legend h2{
     }
     .footer{
         grid-area: footer;
-    }
+    } */
 
 
 
 
- /*--------------------------------------------MEDIA QUERIES INDEX 768px--------------------------------------------*/
+ /* --------------------------------------------MEDIA QUERIES INDEX 768px--------------------------------------------
 
  @media screen and (max-width: 768px) {
     body{
@@ -487,7 +462,7 @@ legend h2{
 
 /*--------------------------------------------MEDIA QUERIES INDEX 425px--------------------------------------------*/
 
- @media screen and (max-width: 425px) {
+ /* @media screen and (max-width: 425px) {
     body{
         background-color: #f7f7f7;
     }
@@ -583,11 +558,11 @@ legend h2{
         padding-left: 5%;
     }
 
- }
+ } */
 
  /*--------------------------------------------MEDIA QUERIES DOCENCIA 768px--------------------------------------------*/
 
- @media screen and (max-width: 768px) {
+ /* @media screen and (max-width: 768px) {
     body{
         background-color: #f7f7f7;
     }
@@ -651,10 +626,10 @@ legend h2{
             grid-area: footer;
             align-self: center;
         }
-    }
+    } */
  
   /*--------------------------------------------MEDIA QUERIES DOCENCIA 425px--------------------------------------------*/
-
+/* 
  @media screen and (max-width: 425px) {
     body{
         background-color: #f7f7f7;
@@ -737,7 +712,7 @@ legend h2{
         padding-left: 5%;
     }
 
- }
+ } */ */
 
  /*---------------GRADIENTES---------------*/
  /* .grad {
@@ -789,7 +764,7 @@ legend h2{
 
 /*--------------------------------------------CONTACTO--------------------------------------------*/
 
-.container {
+/* .container {
     max-width: 600px;
     width: 100%;
     margin: 0 20px;
@@ -901,4 +876,4 @@ fieldset {
 
 :-ms-input-placeholder {
     color: #888
-}
+} */
