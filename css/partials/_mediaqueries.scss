@@ -1,89 +1,93 @@
 /*--------------------------------------------MEDIA QUERIES INDEX 768px--------------------------------------------*/
 
-@media screen and (max-width: 768px) {
-    body{
-        background-color: map-get($estilos, color_title);
-    }
-    header{
-        display: map-get($estilos, flex);
-        flex-direction: column;
-        padding: 30px 7% 30px 3%;
-        box-shadow: 0px 0px 8px rgba(0,0,0,.6);
-        align-items: map-get($estilos, center);
-    }
+// @media screen and (max-width: 768px) {
+//     body{
+//         background-color: map-get($estilos, color_title);
+//     }
+//     header{
+//         display: map-get($estilos, flex);
+//         flex-direction: column;
+//         padding: 30px 7% 30px 3%;
+//         box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+//         align-items: map-get($estilos, centro);
+//     }
 
-    .titulo {
-        color: map-get($estilos, color_other);
+//     .titulo {
+//         color: map-get($estilos, color_other);
         
-    }
+//     }
 
-    .nav__links{
-        display: map-get($estilos, flex);
-        flex-direction: column;
-        align-items: map-get($estilos, center);
-    }
-    .grid_index{
-        display: map-get($estilos, grid);
-        grid-template-columns: 100%;
-        grid-template-rows: 16% 4% 15% 30% 21% auto;
-        grid-row-gap: 1.5rem;
-        grid-template-areas: "header"
-                             "title"
-                             "img"
-                             "contenido"
-                             "video"
-                             "footer";
-        }
-        header{
-            grid-area: header;
-        }
-         .titulo {
-             grid-area: title ;
-             align-self: map-get($estilos, center);
-         }
-         .bannersec{
-            grid-area: img;
-            align-self: map-get($estilos, center);
-         }
-         .contenido{
-             grid-area: contenido;
-             align-self: map-get($estilos, center);
-             padding-right: 5%;
-         }
-         .video{
-             grid-area: video;
-             align-self: map-get($estilos, center);
-         }
-         .video iframe{
-             padding-right: 0%;
-             width: 100%;
-         }
-         .footer{
-             grid-area: footer;
-             align-self: map-get($estilos, center);
-         }
-    .contenido h2{
-        color: map-get($estilos, color_other);
-        font-size: 25px;
-        padding-left: 3%;
-    }
-    .contenido li{
-        color: map-get($estilos, color_other);
-    }
+//     .nav__links{
+//         display: map-get($estilos, flex);
+//         flex-direction: column;
+//         align-items: map-get($estilos, centro);
+//     }
+//     .grid_index{
+//         display: map-get($estilos, grid);
+//         grid-template-columns: 100%;
+//         grid-template-rows: 20% 4% 10% 35% 21% auto;
+//         grid-row-gap: 1.5rem;
+//         grid-template-areas: "header"
+//                              "title"
+//                              "img"
+//                              "contenido"
+//                              "video"
+//                              "footer";
+//         }
+//         header{
+//             grid-area: header;
+//         }
+//          .titulo {
+//              grid-area: title ;
+//              text-align: center;
+//          }
+//          .bannersec{
+//             grid-area: img;
+//             align-self: map-get($estilos, centro);
+//          }
+//          .contenido{
+//              grid-area: contenido;
+//              align-self: map-get($estilos, centro);
+//              padding-right: 5%;
+//          }
+//          .video{
+//              grid-area: video;
+//              align-self: map-get($estilos, centro);
+//          }
+//          .video iframe{
+//              padding-right: 0%;
+//              width: 100%;
+//          }
+//          .footer{
+//              grid-area: footer;
+//              align-self: map-get($estilos, centro);
+//          }
+//     .contenido h2{
+//         color: map-get($estilos, color_other);
+//         font-size: 25px;
+//         padding-left: 3%;
+//         text-align: center;
+//     }
+//     .contenido li{
+//         color: map-get($estilos, color_other);
+//     }
     
-    .contenido li{
-        font-size: 20px;
-        text-align: justify;
-        max-width: 768px;
-        padding-left: 5%;
-        padding-right: 5%;
-        line-height: 30px;
-    }
-    .footer{
-        color:map-get($estilos, color_other);     
-    }
-
- }
+//     .contenido li{
+//         font-size: 20px;
+//         text-align: justify;
+//         max-width: 768px;
+//         padding-left: 5%;
+//         padding-right: 5%;
+//         line-height: 30px;
+//     }
+//     .footer{
+//         color:map-get($estilos, color_other);
+//         text-align: center;     
+//     }
+//     header li a{
+//         font-size: 28px;
+//     }
+//  }
 
 /*--------------------------------------------MEDIA QUERIES INDEX 425px--------------------------------------------*/
 
@@ -96,25 +100,24 @@
         flex-direction: column;
         padding: 30px 7% 30px 3%;
         box-shadow: 0px 0px 8px rgba(0,0,0,.6);
-        align-items: map-get($estilos, center);
+        align-items: map-get($estilos, centro);
     }
 
     .titulo {
-        color: map-get($estilos, color_title);
-        
+        color: map-get($estilos, color_title);        
     }
 
     .nav__links{
         font-size: 8px;
         display: map-get($estilos, flex);
         flex-direction: column;
-        align-items: map-get($estilos, center);
+        align-items: map-get($estilos, centro);
     }
     .grid_index{
         background-color: map-get($estilos, color_other);
         display: map-get($estilos, grid);
         grid-template-columns: 100%;
-        grid-template-rows: 16% 4% 8% 42% 12% auto;
+        grid-template-rows: 18% 4% 12% 38% 15% auto;
         grid-row-gap: 1.5rem;
         grid-template-areas: "header"
                              "title"
@@ -127,22 +130,22 @@
             grid-area: header;
         }
          .titulo {
-             grid-area: title ;
-             align-self: map-get($estilos, center);
+             grid-area: title;
+             align-self: map-get($estilos, centro);
          }
          .bannersec{
             grid-area: img;
-            align-self: map-get($estilos, center);
+            align-self: map-get($estilos, centro);
          }
          .contenido{
              grid-area: contenido;
-             align-self: map-get($estilos, center);
+             align-self: map-get($estilos, centro);
              padding-right: 5%;
              padding-left: 5%;
          }
          .video{
              grid-area: video;
-             align-self: map-get($estilos, center);
+             align-self: map-get($estilos, centro);
          }
          .video iframe{
              padding-right: 0%;
@@ -150,13 +153,13 @@
          }
          .footer{
              grid-area: footer;
-             align-self: map-get($estilos, center);
+             align-self: map-get($estilos, centro);
          }
     .contenido h2{
         color: map-get($estilos, color_title);
         font-size: 20px;
         padding-left: 3%;
-        text-align: map-get($estilos, center);
+        text-align: map-get($estilos, centro);
     }
        
     .contenido li{
@@ -172,18 +175,28 @@
         color:#2c83c9;
         background-color: map-get($estilos, color_title);  
         font-size: 15px; 
+        text-align: map-get($estilos, centro);
     }
     .grid_index .titulo{
         color: map-get($estilos, color_title);
-        font-size: 23px;
+        font-size: 20px;
+        text-align: centro;
     }
 
     .footer p{
         padding-right: 5%;
         padding-left: 5%;
     }
-
- }
+    header li, header a {
+        margin-top: 0px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        text-decoration: none;
+        color: #2c83c9;
+        list-style: none;
+    }
+}
 
  /*--------------------------------------------MEDIA QUERIES DOCENCIA 768px--------------------------------------------*/
 
@@ -196,7 +209,7 @@
         flex-direction: column;
         padding: 30px 7% 30px 3%;
         box-shadow: 0px 0px 8px rgba(0,0,0,.6);
-        align-items: map-get($estilos, center);
+        align-items: map-get($estilos, centro);
     }
 
     .titulo {
@@ -207,18 +220,18 @@
     .nav__links{
         display: map-get($estilos, flex);
         flex-direction: column;
-        align-items: map-get($estilos, center);
+        align-items: map-get($estilos, centro);
     }
 
     .grid_doc{
         display: map-get($estilos, grid);
         grid-template-columns: 100%;
-        grid-template-rows: 23% 4% 11.5% 47% auto;
+        grid-template-rows: 40% 8% 13% 40% auto;;
         grid-row-gap: 1.5rem;
         grid-template-areas: "header"
                              "title"
                              "img"
-                             "texto"
+                             "accordion"
                              "footer";
         }
         header{
@@ -226,30 +239,27 @@
         }
          .titulo {
              grid-area: title ;
-             align-self: map-get($estilos, center);
+             align-self: map-get($estilos, centro);
+         }
+         .accordion{
+             grid-area: accordion;
          }
          .bannersec{
             grid-area: img;
-            align-self: map-get($estilos, center);
+            align-self: map-get($estilos, centro);
          }
-         .docencia{
-            grid-area: docencia;
-            align-self: map-get($estilos, center);
-            padding-right: 5%;
-        }
-        .investigacion{
-            grid-area: investigacion;
-            align-self: map-get($estilos, center);
-            padding-right: 5%;
-        }
-        .produc{
-            grid-area: produc;
-            align-self: map-get($estilos, center);
-            padding-right: 5%;
-        }
          .footer{
             grid-area: footer;
-            align-self: map-get($estilos, center);
+            align-self: map-get($estilos, centro);
+        }
+        header li, header a {
+            margin-top: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: lighter;
+            font-size: 18px;
+            text-decoration: none;
+            color: #2c83c9;
+            list-style: none;
         }
     }
  
@@ -264,7 +274,7 @@
         flex-direction: column;
         padding: 30px 7% 30px 3%;
         box-shadow: 0px 0px 8px rgba(0,0,0,.6);
-        align-items: map-get($estilos, center);
+        align-items: map-get($estilos, centro);
     }
 
     .titulo {
@@ -276,49 +286,38 @@
         font-size: 8px;
         display: map-get($estilos, flex);
         flex-direction: column;
-        align-items: map-get($estilos, center);
+        align-items: map-get($estilos, centro);
     }
     .grid_doc{
         background-color: #2c83c9;
         display: map-get($estilos, grid);
         grid-template-columns: 100%;
-        grid-template-rows: 23% 4% 7% 47% auto;
+        grid-template-rows: 25% 15% 1% 40% auto;
         grid-row-gap: 1.5rem;
         grid-template-areas: "header"
                              "title"
                              "img"
-                             "texto"
+                             "accordion"
                              "footer";
         }
         header{
             grid-area: header;
         }
+        .accordion{
+            grid-area: accordion;
+        }
          .titulo {
              grid-area: title ;
-             align-self: map-get($estilos, center);
+             align-self: map-get($estilos, centro);
          }
          .bannersec{
             grid-area: img;
-            align-self: map-get($estilos, center);
+            align-self: map-get($estilos, centro);
          }
-         .docencia{
-            grid-area: docencia;
-            align-self: map-get($estilos, center);
-            padding-right: 5%;
-        }
-        .investigacion{
-            grid-area: investigacion;
-            align-self: map-get($estilos, center);
-            padding-right: 5%;
-        }
-        .produc{
-            grid-area: produc;
-            align-self: map-get($estilos, center);
-            padding-right: 5%;
-        }        
+       
          .footer{
              grid-area: footer;
-             align-self: map-get($estilos, center);
+             align-self: map-get($estilos, centro);
          }
    
 
@@ -338,3 +337,27 @@
     }
 
  }
+
+ /*--------------------------------------------MEDIA QUERIES ESPECIALIDADES 425px--------------------------------------------*/
+
+ @media screen and (max-width: 425px) {
+    body{
+        background-color: map-get($estilos, color_title);
+    }
+    header{
+        display: map-get($estilos, flex);
+        flex-direction: column;
+        padding: 30px 7% 30px 3%;
+        box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+        align-items: map-get($estilos, centro);
+    }
+    .titulo {
+        color: map-get($estilos, color_title);   
+    }
+    .nav__links{
+        font-size: 8px;
+        display: map-get($estilos, flex);
+        flex-direction: column;
+        align-items: map-get($estilos, centro);
+    }
+}

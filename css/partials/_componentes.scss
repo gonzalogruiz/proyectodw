@@ -13,7 +13,7 @@ $estilos:(
 
 .titulo {
     width: 85%;
-    text-align: map-get($estilos, center);
+    text-align: map-get($estilos, centro);
     font-size: 30px;
     margin: auto;
     color: map-get($estilos, color_title);
@@ -116,7 +116,7 @@ $estilos:(
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 20px;
-    text-align: map-get($estilos, center);
+    text-align: map-get($estilos, centro);
     color: #03045e;
 }
 

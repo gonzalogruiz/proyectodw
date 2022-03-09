@@ -2,7 +2,7 @@
 
 .grid_index{
     @include grid_settings;
-    grid-template-rows: 10% 4% 28% 48% auto;
+    grid-template-rows: 11% 4% 28% 48% auto;
     grid-row-gap: 1.5rem;
     grid-column-gap: 4rem;
     grid-template-areas: "header header"
@@ -19,17 +19,17 @@
      }
      #carouselExampleFade{
         grid-area: img;
-        align-self: map-get($estilos, center);
-        align-items: map-get($estilos, center);
+        align-self: map-get($estilos, centro);
+        align-items: map-get($estilos, centro);
      }
      .contenido{
          grid-area: contenido;
-         align-self: map-get($estilos, center);
+         align-self: map-get($estilos, centro);
 
      }
      .video{
          grid-area: video;
-         align-self: map-get($estilos, center);
+         align-self: map-get($estilos, centro);
      }
      .footer{
          grid-area: footer;
@@ -39,9 +39,9 @@
 
      .grid_doc{
         display: map-get($estilos, grid);
-        align-items: map-get($estilos, center);
+        align-items: map-get($estilos, centro);
         grid-template-columns: 100%;
-        grid-template-rows:11.5% 6% 35% 45% auto; 
+        grid-template-rows:11% 3% 35% 45% auto; 
         grid-row-gap: 1.5rem;
         grid-template-areas: "header"
                              "title"
@@ -69,7 +69,7 @@
    }    
     .footer{
         grid-area: footer;
-        align-self: map-get($estilos, center);
+        align-self: map-get($estilos, centro);
     }
 
     /*--------------------------------------------GRID-NOSOTROS--------------------------------------------*/
@@ -79,7 +79,7 @@
     }
     .grid_nos{
         @include grid_settings;
-        grid-template-rows: 6.5% 3% 18% 6% 5% 5% 5% 3% % 14% auto;
+        grid-template-rows: 7% 1.5% 18% 6% 5% 5% 5% 3% auto;
         grid-row-gap: 1.5rem;
         grid-column-gap: 1.5rem;
         grid-template-areas: "header header"
@@ -112,69 +112,69 @@
    }
    .politicas{
        grid-area: politicas;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        @extend .padding_grid;
    }
    .vision{
        grid-area: vision;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        @extend .padding_grid;
    }
    .mision{
        grid-area: mision;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        @extend .padding_grid;
    }
    .valores{
        grid-area: valores;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        @extend .padding_grid;
    }
    .staff{
        grid-area: staff;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        @extend .padding_grid;
    }
    .jefe{
        grid-area: jefe;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        margin: 0px;
        padding-left: 13%;
        padding-right: 3%;
    }
    .subjefe{
        grid-area: subjefe;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        margin: 0px;
        padding-left: 3%;
        padding-right: 13%;
    }
    .agentes{
        grid-area: agentes;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        padding-left: 13%;
        padding-right: 13%;
    }
    .profesionales{
        grid-area: profesionales;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        margin: 0px;
    }
    .tecnicos{
        grid-area: tecnicos;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        margin: 0px;
    }
    .secretaria{
        grid-area: secretaria;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        margin: 0px;
        padding-left: 13%;
        padding-right: 3%;
    }
    .jeferes{
        grid-area: jeferes;
-       text-align: map-get($estilos, center);
+       text-align: map-get($estilos, centro);
        margin: 0px;
        padding-left: 3%;
        padding-right: 13%;
@@ -187,7 +187,7 @@
    
    .grid_contact{
     @include grid_settings;
-    grid-template-rows: 11.5% 4% 25% 45% auto;
+    grid-template-rows: 9.5% 4% 22% 45% auto;
     grid-row-gap: 1.5rem;
     grid-column-gap: 1.5rem;
     grid-template-areas: "header header"

@@ -2,7 +2,7 @@ header{
     background-color: map-get($estilos, color_title);
     display: map-get($estilos, flex);
     justify-content: space-between;
-    align-items: map-get($estilos, center);
+    align-items: map-get($estilos, centro);
     padding: 30px 7% 30px 3%;
     box-shadow: 0px 0px 8px rgba(0,0,0,.6);
     .nav__links {
@@ -11,7 +11,7 @@ header{
     .nav__links li {
         display: inline-block;
         padding: 0px 20px;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     
     .nav__links li a {
