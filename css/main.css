@@ -665,6 +665,124 @@ header {
 }
 
 /*--------------------------------------------MEDIA QUERIES INDEX 768px--------------------------------------------*/
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #f7f7f7;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 7% 30px 3%;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .titulo {
+    color: #2c83c9;
+  }
+  .nav__links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid_index {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 18% 4% 10% 35% 21% auto;
+        grid-template-rows: 18% 4% 10% 35% 21% auto;
+    grid-row-gap: 1.5rem;
+        grid-template-areas: "header" "title" "img" "contenido" "video" "footer";
+  }
+  header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: header;
+  }
+  .titulo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: title;
+    text-align: center;
+  }
+  .bannersec {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: img;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .contenido {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: contenido;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding-right: 5%;
+  }
+  .video {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: video;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .video iframe {
+    padding-right: 0%;
+    width: 100%;
+  }
+  .footer {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: footer;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .contenido h2 {
+    color: #2c83c9;
+    font-size: 25px;
+    padding-left: 3%;
+    text-align: center;
+  }
+  .contenido li {
+    color: #2c83c9;
+  }
+  .contenido li {
+    font-size: 20px;
+    text-align: justify;
+    max-width: 768px;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 30px;
+  }
+  .footer {
+    color: #2c83c9;
+    text-align: center;
+  }
+  header li a {
+    font-size: 22px;
+  }
+}
+
 /*--------------------------------------------MEDIA QUERIES INDEX 425px--------------------------------------------*/
 @media screen and (max-width: 425px) {
   body {
@@ -707,8 +825,8 @@ header {
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 18% 4% 12% 38% 15% auto;
-        grid-template-rows: 18% 4% 12% 38% 15% auto;
+    -ms-grid-rows: 18% 4% 10% 38% 15% auto;
+        grid-template-rows: 18% 4% 10% 38% 15% auto;
     grid-row-gap: 1.5rem;
         grid-template-areas: "header" "title" "img" "contenido" "video" "footer";
   }
@@ -781,7 +899,7 @@ header {
   .footer {
     color: #2c83c9;
     background-color: #f7f7f7;
-    font-size: 15px;
+    font-size: 10px;
     text-align: center;
   }
   .grid_index .titulo {
@@ -797,7 +915,7 @@ header {
     margin-top: 0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
-    font-size: 15px;
+    font-size: px;
     text-decoration: none;
     color: #2c83c9;
     list-style: none;
@@ -844,8 +962,8 @@ header {
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 40% 8% 13% 40% auto;
-        grid-template-rows: 40% 8% 13% 40% auto;
+    -ms-grid-rows: 25% 8% 13% 40% auto;
+        grid-template-rows: 25% 8% 13% 40% auto;
     grid-row-gap: 1.5rem;
         grid-template-areas: "header" "title" "img" "accordion" "footer";
   }
@@ -990,8 +1108,533 @@ header {
   }
 }
 
-/*--------------------------------------------MEDIA QUERIES ESPECIALIDADES 425px--------------------------------------------*/
+/*--------------------------------------------MEDIA QUERIES NOSOTROS 768px--------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .padding_grid, .politicas, .vision, .mision, .valores, .staff {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .grid_nos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 15% 3% 8% 9% 5% 6% 5% 3% auto;
+        grid-template-rows: 15% 3% 8% 9% 5% 6% 5% 3% auto;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
+        grid-template-areas: "header header" "title title" "img img" "politicas politicas" "vision vision" "mision mision" "valores valores" "staff staff" "jefe subjefe" "secretaria jeferes" "agentes agentes" "profesionales tecnicos" "footer footer";
+  }
+  .grid_nos, li {
+    color: #2c83c9;
+    font-size: 15px;
+    padding-right: 5%;
+  }
+  header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: header;
+  }
+  .titulo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: title;
+  }
+  .bannersec {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: img;
+  }
+  .politicas {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: politicas;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .vision {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: vision;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .mision {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: mision;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .valores {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: valores;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .staff {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: staff;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .jefe {
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+    grid-area: jefe;
+    text-align: center;
+    margin: 0px;
+    padding-left: 13%;
+    padding-right: 3%;
+  }
+  .subjefe {
+    -ms-grid-row: 9;
+    -ms-grid-column: 2;
+    grid-area: subjefe;
+    text-align: center;
+    margin: 0px;
+    padding-left: 3%;
+    padding-right: 13%;
+  }
+  .agentes {
+    -ms-grid-row: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: agentes;
+    text-align: center;
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+  .profesionales {
+    -ms-grid-row: 12;
+    -ms-grid-column: 1;
+    grid-area: profesionales;
+    text-align: center;
+    margin: 0px;
+  }
+  .tecnicos {
+    -ms-grid-row: 12;
+    -ms-grid-column: 2;
+    grid-area: tecnicos;
+    text-align: center;
+    margin: 0px;
+  }
+  .secretaria {
+    -ms-grid-row: 10;
+    -ms-grid-column: 1;
+    grid-area: secretaria;
+    text-align: center;
+    margin: 0px;
+    padding-left: 13%;
+    padding-right: 3%;
+  }
+  .jeferes {
+    -ms-grid-row: 10;
+    -ms-grid-column: 2;
+    grid-area: jeferes;
+    text-align: center;
+    margin: 0px;
+    padding-left: 3%;
+    padding-right: 13%;
+  }
+  .footer {
+    -ms-grid-row: 13;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: footer;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 7% 30px 3%;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .titulo_secc {
+    width: 85%;
+    font-size: 24px;
+    margin: auto;
+    color: #f7f7f7;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2c83c9;
+  }
+}
+
+/*--------------------------------------------MEDIA QUERIES NOSOTROS 425px--------------------------------------------*/
 @media screen and (max-width: 425px) {
+  body {
+    background-color: #2c83c9;
+  }
+  .padding_grid, .politicas, .vision, .mision, .valores, .staff {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .grid_nos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 14% 1% 6% 13% 5% 6% 5% 3% auto;
+        grid-template-rows: 14% 1% 6% 13% 5% 6% 5% 3% auto;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
+        grid-template-areas: "header header" "title title" "img img" "politicas politicas" "vision vision" "mision mision" "valores valores" "staff staff" "jefe subjefe" "secretaria jeferes" "agentes agentes" "profesionales tecnicos" "footer footer";
+    background-color: #2c83c9;
+  }
+  .grid_nos .titulo_secc {
+    background-color: #f7f7f7;
+    color: #03045e;
+  }
+  .grid_nos .titulo {
+    color: #f7f7f7;
+    padding: 5%;
+  }
+  .grid_nos, li {
+    color: #f7f7f7;
+    font-size: 15px;
+    padding-right: 5%;
+  }
+  header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: header;
+  }
+  .titulo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: title;
+  }
+  .bannersec {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: img;
+  }
+  .politicas {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: politicas;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .vision {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: vision;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .mision {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: mision;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .valores {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: valores;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .staff {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: staff;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .jefe {
+    -ms-grid-row: 9;
+    -ms-grid-column: 1;
+    grid-area: jefe;
+    text-align: center;
+    margin: 0px;
+    padding-left: 13%;
+    padding-right: 3%;
+  }
+  .subjefe {
+    -ms-grid-row: 9;
+    -ms-grid-column: 2;
+    grid-area: subjefe;
+    text-align: center;
+    margin: 0px;
+    padding-left: 3%;
+    padding-right: 13%;
+  }
+  .agentes {
+    -ms-grid-row: 11;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: agentes;
+    text-align: center;
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+  .profesionales {
+    -ms-grid-row: 12;
+    -ms-grid-column: 1;
+    grid-area: profesionales;
+    text-align: center;
+    margin: 0px;
+  }
+  .tecnicos {
+    -ms-grid-row: 12;
+    -ms-grid-column: 2;
+    grid-area: tecnicos;
+    text-align: center;
+    margin: 0px;
+  }
+  .secretaria {
+    -ms-grid-row: 10;
+    -ms-grid-column: 1;
+    grid-area: secretaria;
+    text-align: center;
+    margin: 0px;
+    padding-left: 13%;
+    padding-right: 3%;
+  }
+  .jeferes {
+    -ms-grid-row: 10;
+    -ms-grid-column: 2;
+    grid-area: jeferes;
+    text-align: center;
+    margin: 0px;
+    padding-left: 3%;
+    padding-right: 13%;
+  }
+  .footer {
+    -ms-grid-row: 13;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: footer;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 7% 30px 3%;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .titulo_secc {
+    width: 85%;
+    font-size: 24px;
+    margin: auto;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/*--------------------------------------------MEDIA QUERIES CONTACTO 768px--------------------------------------------*/
+@media screen and (max-width: 768px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 7% 30px 3%;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid_contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 20% 4% 10% 27% 25% auto;
+        grid-template-rows: 20% 4% 10% 27% 25% auto;
+    grid-row-gap: 1.5rem;
+        grid-template-areas: "header" "title" "img" "form" "faqs" "footer";
+  }
+  header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: header;
+  }
+  .titulo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: title;
+  }
+  .bannersec {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: img;
+  }
+  .form {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: form;
+  }
+  .faqs {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: faqs;
+    margin-top: 17%;
+    margin-right: 10%;
+  }
+  .footer {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: footer;
+  }
+  #contactus {
+    font-style: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 0px;
+    margin-top: 40px;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-left: 20%;
+  }
+  #accordionFlushExample {
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+}
+
+/*--------------------------------------------MEDIA QUERIES CONTACTO 425px--------------------------------------------*/
+@media screen and (max-width: 425px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 7% 30px 3%;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grid_contact {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    background: #2c83c9;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 20% 2% 7% 31% 25% auto;
+        grid-template-rows: 20% 2% 7% 31% 25% auto;
+    grid-row-gap: 1.5rem;
+        grid-template-areas: "header" "title" "img" "form" "faqs" "footer";
+  }
+  .grid_contact .titulo {
+    color: #f7f7f7;
+    padding: 5%;
+  }
+  header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: header;
+  }
+  .titulo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: title;
+    font-size: 25px;
+  }
+  .bannersec {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: img;
+  }
+  .form {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: form;
+  }
+  .faqs {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: faqs;
+    margin-top: 17%;
+    margin-right: 10%;
+  }
+  .footer {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: footer;
+  }
+  #contactus.form {
+    font-style: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    background: #F9F9F9;
+    margin-left: 5%;
+    margin-right: 5%;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  #accordionFlushExample {
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .container {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/*--------------------------------------------MEDIA QUERIES ESPECIALIDADES 768px--------------------------------------------*/
+@media screen and (max-width: 768px) {
   body {
     background-color: #f7f7f7;
   }
@@ -1011,7 +1654,18 @@ header {
             align-items: center;
   }
   .titulo {
+    color: #2c83c9;
+    padding: 5%;
+  }
+  .titulo_secc {
+    width: 85%;
+    font-size: 24px;
+    margin: auto;
     color: #f7f7f7;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #03045e;
+    text-align: center;
   }
   .nav__links {
     font-size: 8px;
@@ -1025,6 +1679,137 @@ header {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .contenido-lista li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+    color: #2c83c9;
+  }
+  .caja-secciones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90%;
+    margin-left: 50px;
+  }
+  .caja-secciones-desc {
+    font-size: 13px;
+    color: #2c83c9;
+    text-align: justify;
+    width: 90%;
+    margin-left: 30px;
+  }
+  .caja-secciones-ind {
+    width: 50%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .contenido-lista li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+    color: #2c83c9;
+  }
+  .subtitulo_secc {
+    text-align: center;
+  }
+}
+
+/*--------------------------------------------MEDIA QUERIES ESPECIALIDADES 425px--------------------------------------------*/
+@media screen and (max-width: 425px) {
+  body {
+    background-color: #2c83c9;
+    width: 100%;
+    margin: 0;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 7% 30px 3%;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .titulo {
+    color: #f7f7f7;
+    padding: 5%;
+  }
+  .titulo_secc {
+    width: 85%;
+    font-size: 19px;
+    margin: auto;
+    color: #03045e;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .nav__links {
+    font-size: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenido-lista li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    text-decoration: none;
+    color: #2c83c9;
+  }
+  .caja-secciones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 35%;
+    margin-left: 10px;
+  }
+  .caja-secciones-desc {
+    font-size: 13px;
+    color: #f7f7f7;
+    text-align: justify;
+    width: 90%;
+    margin-left: 25px;
+  }
+  .caja-secciones-ind {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .contenido-lista li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    text-decoration: none;
+    color: #f7f7f7;
+    margin-left: 0px;
+  }
+  .subtitulo_secc {
+    font-size: 10px;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,93 +1,93 @@
 /*--------------------------------------------MEDIA QUERIES INDEX 768px--------------------------------------------*/
 
-// @media screen and (max-width: 768px) {
-//     body{
-//         background-color: map-get($estilos, color_title);
-//     }
-//     header{
-//         display: map-get($estilos, flex);
-//         flex-direction: column;
-//         padding: 30px 7% 30px 3%;
-//         box-shadow: 0px 0px 8px rgba(0,0,0,.6);
-//         align-items: map-get($estilos, centro);
-//     }
+ @media screen and (max-width: 768px) {
+    body{
+        background-color: map-get($estilos, color_title);
+    }
+    header{
+        display: map-get($estilos, flex);
+        flex-direction: column;
+        padding: 30px 7% 30px 3%;
+        box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+        align-items: map-get($estilos, centro);
+    }
 
-//     .titulo {
-//         color: map-get($estilos, color_other);
+    .titulo {
+        color: map-get($estilos, color_other);
         
-//     }
+    }
 
-//     .nav__links{
-//         display: map-get($estilos, flex);
-//         flex-direction: column;
-//         align-items: map-get($estilos, centro);
-//     }
-//     .grid_index{
-//         display: map-get($estilos, grid);
-//         grid-template-columns: 100%;
-//         grid-template-rows: 20% 4% 10% 35% 21% auto;
-//         grid-row-gap: 1.5rem;
-//         grid-template-areas: "header"
-//                              "title"
-//                              "img"
-//                              "contenido"
-//                              "video"
-//                              "footer";
-//         }
-//         header{
-//             grid-area: header;
-//         }
-//          .titulo {
-//              grid-area: title ;
-//              text-align: center;
-//          }
-//          .bannersec{
-//             grid-area: img;
-//             align-self: map-get($estilos, centro);
-//          }
-//          .contenido{
-//              grid-area: contenido;
-//              align-self: map-get($estilos, centro);
-//              padding-right: 5%;
-//          }
-//          .video{
-//              grid-area: video;
-//              align-self: map-get($estilos, centro);
-//          }
-//          .video iframe{
-//              padding-right: 0%;
-//              width: 100%;
-//          }
-//          .footer{
-//              grid-area: footer;
-//              align-self: map-get($estilos, centro);
-//          }
-//     .contenido h2{
-//         color: map-get($estilos, color_other);
-//         font-size: 25px;
-//         padding-left: 3%;
-//         text-align: center;
-//     }
-//     .contenido li{
-//         color: map-get($estilos, color_other);
-//     }
+    .nav__links{
+        display: map-get($estilos, flex);
+        flex-direction: column;
+        align-items: map-get($estilos, centro);
+    }
+    .grid_index{
+        display: map-get($estilos, grid);
+        grid-template-columns: 100%;
+        grid-template-rows: 18% 4% 10% 35% 21% auto;
+        grid-row-gap: 1.5rem;
+        grid-template-areas: "header"
+                             "title"
+                             "img"
+                             "contenido"
+                             "video"
+                             "footer";
+        }
+        header{
+            grid-area: header;
+        }
+         .titulo {
+             grid-area: title ;
+             text-align: center;
+         }
+         .bannersec{
+            grid-area: img;
+            align-self: map-get($estilos, centro);
+         }
+         .contenido{
+             grid-area: contenido;
+             align-self: map-get($estilos, centro);
+             padding-right: 5%;
+         }
+         .video{
+             grid-area: video;
+             align-self: map-get($estilos, centro);
+         }
+         .video iframe{
+             padding-right: 0%;
+             width: 100%;
+         }
+         .footer{
+             grid-area: footer;
+             align-self: map-get($estilos, centro);
+         }
+    .contenido h2{
+        color: map-get($estilos, color_other);
+        font-size: 25px;
+        padding-left: 3%;
+        text-align: center;
+    }
+    .contenido li{
+        color: map-get($estilos, color_other);
+    }
     
-//     .contenido li{
-//         font-size: 20px;
-//         text-align: justify;
-//         max-width: 768px;
-//         padding-left: 5%;
-//         padding-right: 5%;
-//         line-height: 30px;
-//     }
-//     .footer{
-//         color:map-get($estilos, color_other);
-//         text-align: center;     
-//     }
-//     header li a{
-//         font-size: 28px;
-//     }
-//  }
+    .contenido li{
+        font-size: 20px;
+        text-align: justify;
+        max-width: 768px;
+        padding-left: 5%;
+        padding-right: 5%;
+        line-height: 30px;
+    }
+    .footer{
+        color:map-get($estilos, color_other);
+        text-align: center;     
+    }
+    header li a{
+        font-size: 22px;
+    }
+ }
 
 /*--------------------------------------------MEDIA QUERIES INDEX 425px--------------------------------------------*/
 
@@ -117,7 +117,7 @@
         background-color: map-get($estilos, color_other);
         display: map-get($estilos, grid);
         grid-template-columns: 100%;
-        grid-template-rows: 18% 4% 12% 38% 15% auto;
+        grid-template-rows: 18% 4% 10% 38% 15% auto;
         grid-row-gap: 1.5rem;
         grid-template-areas: "header"
                              "title"
@@ -174,7 +174,7 @@
     .footer{
         color:#2c83c9;
         background-color: map-get($estilos, color_title);  
-        font-size: 15px; 
+        font-size: 10px; 
         text-align: map-get($estilos, centro);
     }
     .grid_index .titulo{
@@ -191,7 +191,7 @@
         margin-top: 0px;
         font-family: 'Montserrat', sans-serif;
         font-weight: lighter;
-        font-size: 15px;
+        font-size: px;
         text-decoration: none;
         color: #2c83c9;
         list-style: none;
@@ -226,7 +226,7 @@
     .grid_doc{
         display: map-get($estilos, grid);
         grid-template-columns: 100%;
-        grid-template-rows: 40% 8% 13% 40% auto;;
+        grid-template-rows: 25% 8% 13% 40% auto;;
         grid-row-gap: 1.5rem;
         grid-template-areas: "header"
                              "title"
@@ -337,10 +337,417 @@
     }
 
  }
+ /*--------------------------------------------MEDIA QUERIES NOSOTROS 768px--------------------------------------------*/
+@media screen and (max-width: 768px) {
+    
+    .padding_grid{
+         padding-left: 3%;
+         padding-right: 3%;
+     }
+     .grid_nos{
+         @include grid_settings;
+         grid-template-rows: 15% 3% 8% 9% 5% 6% 5% 3% auto;
+         grid-row-gap: 1.5rem;
+         grid-column-gap: 1.5rem;
+         grid-template-areas: "header header"
+                              "title title"
+                              "img img"
+                              "politicas politicas"
+                              "vision vision"
+                              "mision mision"
+                              "valores valores"
+                              "staff staff"
+                              "jefe subjefe"
+                              "secretaria jeferes"
+                              "agentes agentes"
+                              "profesionales tecnicos"
+                              "footer footer"  
+     }
 
- /*--------------------------------------------MEDIA QUERIES ESPECIALIDADES 425px--------------------------------------------*/
+     .grid_nos, li{
+         color: map-get($estilos, color_other);
+         font-size: 15px;
+         padding-right: 5%;
+     }
+ 
+     header{
+        grid-area: header;
+    }
+    .titulo{
+        grid-area: title;
+    }
+    .bannersec {
+       grid-area: img;
+    }
+    .politicas{
+        grid-area: politicas;
+        text-align: map-get($estilos, centro);
+        padding-left: 3%;         
+        padding-right: 3%;
+    }
+    .vision{
+        grid-area: vision;
+        text-align: map-get($estilos, centro);
+        padding-left: 3%;         
+        padding-right: 3%;
+    }
+    .mision{
+        grid-area: mision;
+        text-align: map-get($estilos, centro);
+        padding-left: 3%;         
+        padding-right: 3%;
+    }
+    .valores{
+        grid-area: valores;
+        text-align: map-get($estilos, centro);
+        padding-left: 3%;         
+        padding-right: 3%;
+    }
+    .staff{
+        grid-area: staff;
+        text-align: map-get($estilos, centro);
+        padding-left: 3%;         
+        padding-right: 3%;
+    }
+    .jefe{
+        grid-area: jefe;
+        text-align: map-get($estilos, centro);
+        margin: 0px;
+        padding-left: 13%;
+        padding-right: 3%;
+    }
+    .subjefe{
+        grid-area: subjefe;
+        text-align: map-get($estilos, centro);
+        margin: 0px;
+        padding-left: 3%;
+        padding-right: 13%;
+    }
+    .agentes{
+        grid-area: agentes;
+        text-align: map-get($estilos, centro);
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+    .profesionales{
+        grid-area: profesionales;
+        text-align: map-get($estilos, centro);
+        margin: 0px;
+    }
+    .tecnicos{
+        grid-area: tecnicos;
+        text-align: map-get($estilos, centro);
+        margin: 0px;
+    }
+    .secretaria{
+        grid-area: secretaria;
+        text-align: map-get($estilos, centro);
+        margin: 0px;
+        padding-left: 13%;
+        padding-right: 3%;
+    }
+    .jeferes{
+        grid-area: jeferes;
+        text-align: map-get($estilos, centro);
+        margin: 0px;
+        padding-left: 3%;
+        padding-right: 13%;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    header{
+     display: map-get($estilos, flex);
+     flex-direction: column;
+     padding: 30px 7% 30px 3%;
+     box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+     align-items: map-get($estilos, centro);
+ }
+ .titulo_secc {
+    width: 85%;
+    font-size: 24px;
+    margin: auto;
+    color: #f7f7f7;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2c83c9;
+ }
+ }
+   /*--------------------------------------------MEDIA QUERIES NOSOTROS 425px--------------------------------------------*/
+   @media screen and (max-width: 425px) {
+    body{
+        background-color: #2c83c9;
+    }
+   .padding_grid{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .grid_nos{
+        @include grid_settings;
+        grid-template-rows: 14% 1% 6% 13% 5% 6% 5% 3% auto;
+        grid-row-gap: 1.5rem;
+        grid-column-gap: 1.5rem;
+        grid-template-areas: "header header"
+                             "title title"
+                             "img img"
+                             "politicas politicas"
+                             "vision vision"
+                             "mision mision"
+                             "valores valores"
+                             "staff staff"
+                             "jefe subjefe"
+                             "secretaria jeferes"
+                             "agentes agentes"
+                             "profesionales tecnicos"
+                             "footer footer";
 
- @media screen and (max-width: 425px) {
+         background-color: #2c83c9;
+         .titulo_secc{
+            background-color: #f7f7f7;
+            color: #03045e;
+         }
+         .titulo{ 
+            color: #f7f7f7;
+        padding: 5%;
+    }
+}
+    .grid_nos, li{
+        color: map-get($estilos, color_title);
+        font-size: 15px;
+        padding-right: 5%;
+    }
+
+    header{
+       grid-area: header;
+   }
+   .titulo{
+       grid-area: title;
+   }
+   .bannersec {
+      grid-area: img;
+   }
+   .politicas{
+       grid-area: politicas;
+       text-align: map-get($estilos, centro);
+       padding-left: 3%;         
+       padding-right: 3%;
+   }
+   .vision{
+       grid-area: vision;
+       text-align: map-get($estilos, centro);
+       padding-left: 3%;         
+       padding-right: 3%;
+   }
+   .mision{
+       grid-area: mision;
+       text-align: map-get($estilos, centro);
+       padding-left: 3%;         
+       padding-right: 3%;
+   }
+   .valores{
+       grid-area: valores;
+       text-align: map-get($estilos, centro);
+       padding-left: 3%;         
+       padding-right: 3%;
+   }
+   .staff{
+       grid-area: staff;
+       text-align: map-get($estilos, centro);
+       padding-left: 3%;         
+       padding-right: 3%;
+   }
+   .jefe{
+       grid-area: jefe;
+       text-align: map-get($estilos, centro);
+       margin: 0px;
+       padding-left: 13%;
+       padding-right: 3%;
+   }
+   .subjefe{
+       grid-area: subjefe;
+       text-align: map-get($estilos, centro);
+       margin: 0px;
+       padding-left: 3%;
+       padding-right: 13%;
+   }
+   .agentes{
+       grid-area: agentes;
+       text-align: map-get($estilos, centro);
+       padding-left: 13%;
+       padding-right: 13%;
+   }
+   .profesionales{
+       grid-area: profesionales;
+       text-align: map-get($estilos, centro);
+       margin: 0px;
+   }
+   .tecnicos{
+       grid-area: tecnicos;
+       text-align: map-get($estilos, centro);
+       margin: 0px;
+   }
+   .secretaria{
+       grid-area: secretaria;
+       text-align: map-get($estilos, centro);
+       margin: 0px;
+       padding-left: 13%;
+       padding-right: 3%;
+   }
+   .jeferes{
+       grid-area: jeferes;
+       text-align: map-get($estilos, centro);
+       margin: 0px;
+       padding-left: 3%;
+       padding-right: 13%;
+   }
+   .footer{
+       grid-area: footer;
+   }
+   header{
+    display: map-get($estilos, flex);
+    flex-direction: column;
+    padding: 30px 7% 30px 3%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+    align-items: map-get($estilos, centro);
+}
+.titulo_secc {
+    width: 85%;
+    font-size: 24px;
+    margin: auto;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+}
+
+/*--------------------------------------------MEDIA QUERIES CONTACTO 768px--------------------------------------------*/
+@media screen and (max-width: 768px) {
+    header{
+        display: map-get($estilos, flex);
+        flex-direction: column;
+        padding: 30px 7% 30px 3%;
+        box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+        align-items: map-get($estilos, centro);
+    }
+
+    .grid_contact{
+        @include grid_settings;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 4% 10% 27% 25% auto;
+        grid-row-gap: 1.5rem;
+        grid-template-areas: "header"
+                             "title"
+                             "img"
+                             "form"
+                             "faqs"
+                             "footer"
+    }
+    header{
+       grid-area: header;
+    }
+    .titulo{
+       grid-area: title;
+    }
+    .bannersec {
+      grid-area: img;
+    }
+    .form{
+       grid-area: form;
+    }
+    .faqs{
+       grid-area: faqs;
+       margin-top: 17%;
+       margin-right: 10%;
+    }
+    .footer{
+       grid-area: footer;
+    }
+    #contactus {
+        font-style: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+        background: #F9F9F9;
+        padding: 25px;
+        margin: 0px;
+        margin-top: 40px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        margin-left: 20%;
+    }
+    #accordionFlushExample {
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+}
+/*--------------------------------------------MEDIA QUERIES CONTACTO 425px--------------------------------------------*/
+@media screen and (max-width: 425px) {
+   
+    header{
+        display: map-get($estilos, flex);
+        flex-direction: column;
+        padding: 30px 7% 30px 3%;
+        box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+        align-items: map-get($estilos, centro);
+    }
+
+    .grid_contact{
+        @include grid_settings;
+        background: #2c83c9;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 2% 7% 31% 25% auto;
+        grid-row-gap: 1.5rem;
+        grid-template-areas: "header"
+                             "title"
+                             "img"
+                             "form"
+                             "faqs"
+                             "footer";
+    .titulo{ 
+        color: #f7f7f7;
+    padding: 5%;
+    }
+    }
+    header{
+       grid-area: header;
+    }
+    .titulo{
+       grid-area: title;
+       font-size: 25px;
+    }
+    
+    .bannersec {
+      grid-area: img;
+    }
+    .form{
+       grid-area: form;
+    }
+    .faqs{
+       grid-area: faqs;
+       margin-top: 17%;
+       margin-right: 10%;
+    }
+    .footer{
+       grid-area: footer;
+    }
+    #contactus.form {
+        font-style: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+        background: #F9F9F9;
+        margin-left: 5%;
+        margin-right: 5%;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+    #accordionFlushExample {
+        margin-top: 30px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .container {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+
+
+/*--------------------------------------------MEDIA QUERIES ESPECIALIDADES 768px--------------------------------------------*/
+
+@media screen and (max-width: 768px) {
     body{
         background-color: map-get($estilos, color_title);
     }
@@ -352,12 +759,141 @@
         align-items: map-get($estilos, centro);
     }
     .titulo {
-        color: map-get($estilos, color_title);   
+        color: map-get($estilos, color_other);
+        padding: 5%;   
     }
+    .titulo_secc {
+        width: 85%;
+        font-size: 24px;
+        margin: auto;
+        color: #f7f7f7;
+        padding: 1%;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #03045e;
+        text-align: center;
+    }
+
     .nav__links{
         font-size: 8px;
         display: map-get($estilos, flex);
         flex-direction: column;
         align-items: map-get($estilos, centro);
     }
+    .contenido-lista li {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        font-size: 15px;
+        text-decoration: none;
+        color: #2c83c9;
+    }
+    .caja-secciones{
+        display: map-get($estilos, flex);
+        justify-content: space-between;
+        width: 90%;
+        margin-left: 50px;
+    }
+    
+    .caja-secciones-desc{
+        font-size: 13px;
+        color: map-get($estilos, color_other);
+        text-align: justify; 
+        width: 90%;   
+        margin-left: 30px;
+        }
+ 
+    
+        .caja-secciones-ind{
+            width: 50%;
+            padding-right: 0px;
+            padding-left: 0px;
+
+        }
+        .contenido-lista li {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: lighter;
+            font-size: 15px;
+            text-decoration: none;
+            color: map-get($estilos, color_other);
+        }
+        .subtitulo_secc{
+            text-align: center;
+        }
+}
+
+/*--------------------------------------------MEDIA QUERIES ESPECIALIDADES 425px--------------------------------------------*/
+
+@media screen and (max-width: 425px) {
+
+    body{
+        background-color: map-get($estilos, color_other);
+        width: 100%;
+        margin: 0;
+    }
+    header{
+        display: map-get($estilos, flex);
+        flex-direction: column;
+        padding: 30px 7% 30px 3%;
+        box-shadow: 0px 0px 8px rgba(0,0,0,.6);
+        align-items: map-get($estilos, centro);
+    }
+    .titulo {
+        color: map-get($estilos, color_title);
+        padding: 5%;   
+    }
+    .titulo_secc {
+        width: 85%;
+        font-size: 19px;
+        margin: auto;
+        color: #03045e;
+        padding: 1%;
+        font-family: 'Montserrat', sans-serif;
+        background-color:#f7f7f7;
+        text-align: center;
+    }
+
+    .nav__links{
+        font-size: 8px;
+        display: map-get($estilos, flex);
+        flex-direction: column;
+        align-items: map-get($estilos, centro);
+    }
+    .contenido-lista li {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        font-size: 10px;
+        text-decoration: none;
+        color: #2c83c9;
+    }
+    .caja-secciones{
+        display: map-get($estilos, flex);
+        justify-content: space-between;
+        width: 35%;
+        margin-left: 10px;
+    }
+    
+    .caja-secciones-desc{
+        font-size: 13px;
+        color: map-get($estilos, color_title);
+        text-align: justify; 
+        width: 90%;   
+        margin-left: 25px;
+        }
+   
+        .caja-secciones-ind{
+            width: 100%;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        .contenido-lista li {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: lighter;
+            font-size: 12px;
+            text-decoration: none;
+            color: map-get($estilos, color_title);
+            margin-left: 0px;
+        }
+        .subtitulo_secc{
+            font-size: 10px;
+            text-align: center;
+        }
 }
